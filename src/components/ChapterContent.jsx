@@ -147,8 +147,9 @@ export default function ChapterContent({ chapter, onScroll, readChapters, onMark
           height: '72px',
           zIndex: 20,
           display: 'flex',
-          alignItems: 'center',
-          padding: '0 2rem',
+          alignItems: 'baseline',
+          gap: '0.75rem',
+          padding: '1.2rem 2rem 0',
           background: 'linear-gradient(to bottom, rgba(10,10,10,0.95) 60%, rgba(10,10,10,0))',
           backdropFilter: 'blur(8px)',
         }}
@@ -164,6 +165,32 @@ export default function ChapterContent({ chapter, onScroll, readChapters, onMark
         >
           Manual Nômade de Autogestão
         </span>
+        <span
+          style={{
+            fontFamily: "'Inter', sans-serif",
+            fontSize: '0.75rem',
+            fontWeight: 300,
+            color: 'rgba(224,216,200,0.4)',
+          }}
+        >
+          por Davi Zimmer
+        </span>
+        <span style={{ flex: 1 }} />
+        <a
+          href="https://targetteal.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            fontFamily: "'Inter', sans-serif",
+            fontSize: '0.7rem',
+            fontWeight: 500,
+            color: 'rgba(224,216,200,0.3)',
+            textDecoration: 'none',
+            letterSpacing: '0.05em',
+          }}
+        >
+          targetteal.com
+        </a>
       </div>
 
       <div
