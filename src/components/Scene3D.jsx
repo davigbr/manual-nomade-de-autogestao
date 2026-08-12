@@ -44,7 +44,7 @@ function SceneContent({ chapter, scrollProgress }) {
 
       <AmbientLighting color={color} accentColor={accentColor} />
 
-      <group ref={groupRef}>
+      <group ref={groupRef} position={[4, 0.5, 0]}>
         <Float speed={1.5} rotationIntensity={0.3} floatIntensity={0.5}>
           <ChapterGeometry
             geometryKey={geometry}
