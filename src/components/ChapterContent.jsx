@@ -139,6 +139,7 @@ export default function ChapterContent({ chapter, onScroll, readChapters, onMark
     <>
       {/* Fixed header bar */}
       <div
+        className="header-bar"
         style={{
           position: 'fixed',
           top: 0,
