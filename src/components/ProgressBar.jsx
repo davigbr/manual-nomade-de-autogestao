@@ -10,7 +10,7 @@ export default function ProgressBar({ currentChapter, scrollProgress, accentColo
       style={{
         position: 'fixed',
         bottom: 0,
-        left: '260px',
+        left: 'var(--sidebar-width)',
         right: 0,
         zIndex: 80,
         padding: '0 1rem 1rem',

@@ -142,7 +142,7 @@ export default function ChapterContent({ chapter, onScroll, readChapters, onMark
         style={{
           position: 'fixed',
           top: 0,
-          left: '260px',
+          left: 'var(--sidebar-width)',
           right: 0,
           height: '72px',
           zIndex: 20,
@@ -166,6 +166,7 @@ export default function ChapterContent({ chapter, onScroll, readChapters, onMark
           Manual Nômade de Autogestão
         </span>
         <span
+          className="header-byline"
           style={{
             fontFamily: "'Inter', sans-serif",
             fontSize: '0.75rem',
@@ -198,7 +199,7 @@ export default function ChapterContent({ chapter, onScroll, readChapters, onMark
       style={{
         position: 'fixed',
         top: 0,
-        left: '260px',
+        left: 'var(--sidebar-width)',
         right: 0,
         height: '100%',
         zIndex: 10,
