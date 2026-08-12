@@ -241,26 +241,6 @@ export default function ChapterContent({ chapter, onScroll, readChapters, onMark
               {chapter.title}
             </motion.h1>
 
-            {/* Subtitle — skip for references */}
-            {chapter.number !== '∞' && chapter.subtitle && (
-            <motion.p
-              variants={fadeInUp}
-              initial="initial"
-              animate="animate"
-              style={{
-                fontFamily: "'Inter', sans-serif",
-                fontSize: '1.05rem',
-                fontWeight: 300,
-                color: 'rgba(224,216,200,0.5)',
-                marginBottom: '3rem',
-                maxWidth: '600px',
-                lineHeight: 1.6,
-              }}
-            >
-              {chapter.subtitle}
-            </motion.p>
-            )}
-
             {/* Sections */}
             {chapter.sections.map((section, i) => (
               <SectionBlock
