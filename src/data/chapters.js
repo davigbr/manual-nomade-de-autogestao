@@ -6,7 +6,7 @@ const chapters = [
     id: 0,
     number: "0",
     title: "Introdu\u00e7\u00e3o",
-    subtitle: "O mundo mudou. As organiza\u00e7\u00f5es ainda n\u00e3o.",
+    subtitle: "O mundo mudou.",
     theme: "dawn",
     color: "#f4a261",
     accentColor: "#e76f51",
@@ -15,7 +15,7 @@ const chapters = [
       {
         heading: null,
         paragraphs: [
-          "O mundo mudou. As organiza\u00e7\u00f5es ainda n\u00e3o.",
+          "As organiza\u00e7\u00f5es ainda n\u00e3o.",
           "Essa frase, que abre o e-book de Marco Ornellas sobre Design Organizacional, poderia resumir tudo o que voc\u00ea vai ler nas pr\u00f3ximas p\u00e1ginas. As estruturas organizacionais que conhecemos foram desenhadas para um mundo que j\u00e1 n\u00e3o existe. Um mundo previs\u00edvel e est\u00e1vel, em que o ritmo da mudan\u00e7a era lento o suficiente para que a informa\u00e7\u00e3o pudesse subir pela cadeia de comando, ser processada no topo e descer de volta antes que a realidade mudasse de novo.",
           "Esse mundo acabou. E as organiza\u00e7\u00f5es sentem isso todos os dias, nas decis\u00f5es que demoram mais do que o toler\u00e1vel, burocracia que cresce como mato, pessoas talentosas que se desligam porque o trabalho perdeu o sentido. Os sintomas s\u00e3o conhecidos. O que \u00e9 menos \u00f3bvio \u00e9 que eles n\u00e3o s\u00e3o problemas operacionais \u2014 s\u00e3o sinais de que o design da organiza\u00e7\u00e3o deixou de responder \u00e0 realidade.",
           "O Design Organizacional \u00e9 a disciplina que se prop\u00f5e a fazer essa pergunta: a forma como nossa organiza\u00e7\u00e3o est\u00e1 desenhada ainda faz sentido? N\u00e3o se trata apenas de mexer no organograma \u2014 as caixinhas s\u00e3o a parte mais superficial do sistema. Por tr\u00e1s delas, h\u00e1 uma rede de decis\u00f5es, incentivos, fluxos de informa\u00e7\u00e3o, rela\u00e7\u00f5es de poder e padr\u00f5es de comportamento que determinam como o trabalho acontece.",
@@ -314,7 +314,7 @@ const chapters = [
     id: 6,
     number: "6",
     title: "Travessia",
-    subtitle: "Este manual percorreu um caminho tortuoso. Come\u00e7ou por desmontar a ideia de que a hierarquia \u00e9 natural. Mostrou que a...",
+    subtitle: "Este manual percorreu um caminho tortuoso.",
     theme: "horizon",
     color: "#f4a261",
     accentColor: "#e76f51",
@@ -323,7 +323,7 @@ const chapters = [
       {
         heading: null,
         paragraphs: [
-          "Este manual percorreu um caminho tortuoso. Come\u00e7ou por desmontar a ideia de que a hierarquia \u00e9 natural. Mostrou que a autogest\u00e3o n\u00e3o \u00e9 uma inven\u00e7\u00e3o moderna \u2014 povos inteiros a praticaram antes da exist\u00eancia da pir\u00e2mide. Apresentou estruturas e sistemas que funcionam, mas alertou que tratar qualquer sistema como um destino \u00e9 a forma mais r\u00e1pida de falhar. Prop\u00f4s uma postura n\u00f4made \u2014 cartografar o que est\u00e1 vivo, amplificar as linhas de fuga, cultivar autoan\u00e1lise sem se poupar da pr\u00f3pria.",
+          "Come\u00e7ou por desmontar a ideia de que a hierarquia \u00e9 natural. Mostrou que a autogest\u00e3o n\u00e3o \u00e9 uma inven\u00e7\u00e3o moderna \u2014 povos inteiros a praticaram antes da exist\u00eancia da pir\u00e2mide. Apresentou estruturas e sistemas que funcionam, mas alertou que tratar qualquer sistema como um destino \u00e9 a forma mais r\u00e1pida de falhar. Prop\u00f4s uma postura n\u00f4made \u2014 cartografar o que est\u00e1 vivo, amplificar as linhas de fuga, cultivar autoan\u00e1lise sem se poupar da pr\u00f3pria.",
           "O que este manual n\u00e3o fez \u2014 deliberadamente \u2014 foi prometer um estado final. A autogest\u00e3o n\u00e3o tem ponto de chegada. Ela \u00e9 uma dire\u00e7\u00e3o: mais pessoas decidindo sobre o pr\u00f3prio trabalho, mais transpar\u00eancia sobre quem decide o qu\u00ea, mais capacidade coletiva de se reorganizar conforme a realidade muda. O crit\u00e9rio n\u00e3o \u00e9 se a organiza\u00e7\u00e3o atingiu um estado final da autogest\u00e3o. \u00c9 se, depois de cada experimento, as pessoas podem mais do que podiam antes.",
           "Se voc\u00ea chegou at\u00e9 aqui com mais perguntas do que certezas, o manual cumpriu seu papel. O sedent\u00e1rio busca um ch\u00e3o fixo, um modelo que estabilize o territ\u00f3rio. O n\u00f4made faz do movimento seu territ\u00f3rio \u2014 ele n\u00e3o se fixa em parte alguma, pois seu modo de existir \u00e9 a travessia. A autogest\u00e3o n\u00e3o \u00e9 um lugar a que se chega. \u00c9 o deslocamento cont\u00ednuo contra as formas que tentam se solidificar, contra os h\u00e1bitos que viram lei, contra as estruturas que esquecem por que foram criadas. O agente n\u00f4made n\u00e3o combate a hierarquia de uma vez por todas. Ele a combate todos os dias \u2014 e \u00e9 nesse combate que se territorializa.",
           "Experimente. Comece pequeno. Observe o que muda. Ajuste. Experimente de novo. E, sobretudo, n\u00e3o espere a cadeia de comando cair para come\u00e7ar a fur\u00e1-la. Ela j\u00e1 tem brechas. O que falta \u00e9 gente disposta a passar por elas.",
@@ -335,7 +335,7 @@ const chapters = [
     id: 7,
     number: "∞",
     title: "Refer\u00eancias",
-    subtitle: "BAREMBLITT, Gregorio F. **Comp\u00eandio de an\u00e1lise institucional e outras correntes**: teoria e pr\u00e1tica. 5. ed. Belo Hori...",
+    subtitle: "",
     theme: "library",
     color: "#264653",
     accentColor: "#f4a261",

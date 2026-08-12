@@ -2,6 +2,16 @@ import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import chapters from '../data/chapters.js';
 
+function renderText(text) {
+  // Escape HTML first, then parse **bold** and *italic*
+  const esc = text
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  const withBold = esc.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  const withItalic = withBold.replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<em>$2</em>');
+  return withItalic;
+}
+
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
   animate: { opacity: 1, y: 0 },
@@ -56,7 +66,7 @@ function SectionBlock({ section, index, accentColor }) {
             maxWidth: '680px',
           }}
         >
-          {p}
+          <span dangerouslySetInnerHTML={{ __html: renderText(p) }} />
         </motion.p>
       ))}
 
@@ -87,7 +97,7 @@ function SectionBlock({ section, index, accentColor }) {
                   maxWidth: '640px',
                 }}
               >
-                {sp}
+                <span dangerouslySetInnerHTML={{ __html: renderText(sp) }} />
               </p>
             ))}
           </div>
@@ -231,7 +241,8 @@ export default function ChapterContent({ chapter, onScroll, readChapters, onMark
               {chapter.title}
             </motion.h1>
 
-            {/* Subtitle */}
+            {/* Subtitle — skip for references */}
+            {chapter.number !== '∞' && chapter.subtitle && (
             <motion.p
               variants={fadeInUp}
               initial="initial"
@@ -248,6 +259,7 @@ export default function ChapterContent({ chapter, onScroll, readChapters, onMark
             >
               {chapter.subtitle}
             </motion.p>
+            )}
 
             {/* Sections */}
             {chapter.sections.map((section, i) => (
